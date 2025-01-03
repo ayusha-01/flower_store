@@ -18,6 +18,9 @@ body{
 h1{
     font-size: 5rem;
 }
+h2{
+    cursor: pointer;
+}
 
 footer p{
     text-align: right;
