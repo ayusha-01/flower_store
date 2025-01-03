@@ -1,0 +1,73 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(228, 115, 134);
+    margin: 0 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+
+.logo{
+    height: 200px;
+}
+
+.main{
+    flex: 1;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+footer p{
+    text-align: right;
+    font-weight: bold;
+}
+
+
+.tile-image{
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+}
+
+.card{
+    width: 45%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+@media (max-width: 680px){
+    .logo{
+        height: 100px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .card{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+    .card img{
+        margin-bottom: 10px;
+        width: 50%;
+        display: block;
+        float: clear;
+        align-items: center;
+    }
+}
+
+
+
